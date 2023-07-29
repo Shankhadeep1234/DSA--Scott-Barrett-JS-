@@ -11,3 +11,9 @@ The letter O is used because the growth rate of a function is also referred to a
 A description of a function in terms of big O notation usually only provides an upper bound on the growth rate of the function.
 Associated with big O notation are several related notations, using the symbols o, Ω, ω, and Θ, to describe other kinds 
 of bounds on asymptotic growth rates.
+
+best case scenario: O(1) with a greek letter omega -Ω
+average case scenario: O(n) with a greek letter theta -Θ
+worst case scenario: O(n^2) with a greek letter big O -o
+
+**Note - when we say O(n) we mean the worst case scenario.**
