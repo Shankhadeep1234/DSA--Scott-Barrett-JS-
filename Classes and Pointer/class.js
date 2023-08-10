@@ -1,4 +1,4 @@
-//this is a class cookie
+//this is a cookie class
 class Cookie {
   constructor(color) {
     this.color = color;
