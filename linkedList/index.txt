@@ -1,0 +1,9 @@
+linkedList is a data structure that contains a head, tail, and length property  (basically a list)
+linked lists consist of nodes, and each node has a value and a pointer to another node or null
+compared to arrays, linked lists are good for insertion and deletion, but not good for random access (no index)
+arrays are good for random access, but not good for insertion and deletion (shift, unshift, push, pop are O(n) time complexity)
+
+example of a linked list:
+head -> 4 -> 6 -> 8 -> 2 -> null
+tail -> 2 -> null
+length -> 4
