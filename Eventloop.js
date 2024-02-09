@@ -12,4 +12,10 @@ function intervalCallBack() {
   }
 }
 
+// setTimeoutCallback will be called after 0 seconds and intervalCallback will be called after every 1 second
+// setTimeout(setTimeoutCallBack, 0);
+function setTimeoutCallBack() {
+  console.log("Set timeout callback called after 0 seconds");
+}
+
 const intervalId = setInterval(intervalCallBack, 1000);
