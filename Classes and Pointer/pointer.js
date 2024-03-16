@@ -12,6 +12,7 @@ console.log(num2); // 5
 //pointers are used to store the address of the variable,pointers can be achieved in javascript using the reference type objects
 //where you set a variable to an object and then change the object's property, the variable will still point to the same object
 //not the copy of the object like in the case of primitive types like number,string,boolean,null,undefined
+// Example of reference type objects are arrays,functions,objects
 let obj1 = { value: 5 };
 let obj2 = obj1;
 
